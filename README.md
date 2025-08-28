@@ -11,14 +11,16 @@ ConnectX – Social Media Database is a PostgreSQL relational database project d
 ---
 
 ## 📌 Key Features  
-- 👤 User management & authentication  
-- 📝 Posts with multiple media types (images, videos, audio)  
-- ❤️ Engagement: likes, comments, tags  
-- 📂 Collections & saved posts  
-- 👪 Groups & memberships  
-- 💬 Direct & group messaging  
-- 📢 Advertisements on posts  
-- 🔗 Referential integrity & auditing with timestamps  
+- 👤 **User Accounts** – Register, log in, verify users, and manage profiles (username, name, bio, picture, multiple emails, multiple contacts)  
+- 📝 **Posts** – Create posts with captions, locations, and upload media (images, videos, audio)  
+- 🏷️ **Tags** – Tag users in posts  
+- ❤️ **Likes & Comments** – Like/unlike posts and comments, add comments with timestamps  
+- 👥 **Follow System** – Follow or unfollow other users  
+- 📂 **Collections** – Create collections and save posts into them  
+- 👪 **Groups** – Create groups, join/leave groups, and manage memberships  
+- 💬 **Messaging** – Send private messages between users or group messages, with timestamps  
+- 📢 **Advertisements** – Store ad details and place ads on posts  
+- ⏱️ **Timestamps & Integrity** – Track post dates, likes, comments, and messages while maintaining referential integrity  
 
 ---
 
