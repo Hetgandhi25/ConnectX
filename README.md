@@ -2,13 +2,11 @@
 
 *A Social Media Database Management System*  
 
+ConnectX – Social Media Database is a PostgreSQL relational database project designed to simulate the backend of a social media platform. It manages users, posts, comments, likes, follows, messages, and groups, ensuring data consistency and scalability. The project includes ER and relational diagrams normalized to BCNF, and uses SQL for data definition, manipulation, indexing, and optimized queries, all managed through pgAdmin 4.
+
 **Associated with Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT)**  
 
----
 
-## 📝 Summary  
-ConnectX is a **PostgreSQL relational database project** that models a **social media platform**.  
-It manages **users, posts, comments, likes, follows, messages, groups, ads, and collections**, ensuring a **scalable, normalized, and query-optimized DBMS** design.  
 
 ---
 
