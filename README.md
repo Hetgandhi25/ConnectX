@@ -1,46 +1,68 @@
-# 🌐 ConnectX - A Social Media Database Project 📱
+---
 
-## Features ✨
+# ConnectX 📱
 
-### 1. User Management 👤
-- 📝 **User Registration & Login**: Users can create accounts and log in securely.
-- 🏷️ **Profile Management**: Customize profile with a picture, bio, and personal details.
-- 🔄 **Follow/Unfollow**: Connect with other users to see their updates.
+*A Social Media Database Management System*
 
-### 2. Content Management 📸
-- ➕ **Post Creation**: Share images, videos, and captions.
-- ❤️ **Post Interactions**: Like, comment, and share posts.
-- ⏳ **Stories**: Post temporary updates that disappear in 24 hours.
+![Institute Logo](https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DA-IICT_logo.svg/1200px-DA-IICT_logo.svg.png)
+**Associated with Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT)**
 
-### 3. Group Management 👥
-- 📌 **Create & Manage Groups**: Form interest-based communities.
-- 🚪 **Join/Leave Groups**: Participate in discussions freely.
-- 📝 **Group Posts**: Share content within groups.
+---
 
-### 4. Notifications 🔔
-- ⚡ **Activity Alerts**: Get notified for likes, comments, and follows.
-- 📩 **Message Notifications**: Stay updated on direct messages and group activities.
+## 📝 Summary
 
-### 5. Messaging 💬
-- 📨 **Direct Messaging**: Chat privately with other users.
-- 👨‍👩‍👧 **Group Chats**: Engage in discussions with multiple users.
+ConnectX is a **PostgreSQL relational database project** that models a social media platform.
+It manages **users, posts, comments, likes, follows, messages, and groups**, providing a scalable and normalized DBMS design with advanced SQL queries and efficient data handling.
 
-### 6. Search & Discovery 🔍
-- 👤 **User Search**: Find people by username or name.
-- 🏆 **Explore Content**: Discover new posts and trending topics.
+---
 
-### 7. Privacy & Security 🔒
-- ⚙️ **Privacy Settings**: Set profile visibility to public or private.
-- 🚫 **Block Users**: Restrict unwanted interactions.
+## 📌 Overview
 
-### 8. Analytics 📊
-- 📈 **User Insights**: Track engagement and post performance.
-- 📉 **Group Insights**: Admins can analyze group activity.
+ConnectX is a **PostgreSQL-based relational database** designed to simulate the backend of a **social media platform**.
+The system efficiently manages **users, posts, comments, likes, follows, messages, and groups**, ensuring:
 
-### 9. Admin Features 🛠️
-- 🏛️ **User Management**: Suspend or delete accounts if necessary.
-- ⚖️ **Content Moderation**: Ensure content follows community guidelines.
+* ✅ Data **consistency**
+* ✅ High **scalability**
+* ✅ Efficient **query optimization**
 
-### 10. ConnectX Special Feature 🔗
-- 🎯 **Unique User Connections**: Discover and connect with people based on shared interests or events.
+This project demonstrates a **real-world DBMS design** with complete normalization, entity-relationship modeling, and advanced SQL operations.
 
+---
+
+## 🔑 Features
+
+* **User Management** – Profiles, contacts, emails, bios, profile pictures, and authentication.
+* **Posts & Media** – Captions, images, videos, songs, locations, and post timestamps.
+* **Likes & Comments** – Post likes, comment likes, threaded comments with timestamps.
+* **Follow System** – Users can follow/unfollow others.
+* **Messaging** – Private and group messaging with timestamps.
+* **Groups & Collections** – Create/join groups, save posts into collections.
+* **Ads Integration** – Posts associated with advertisers and campaigns.
+* **Tags** – User tagging in posts.
+
+---
+
+## 🏗️ Database Design
+
+* **ER Diagram & Relational Schema** designed in **BCNF (Boyce-Codd Normal Form)** for maximum efficiency.
+* Includes **minimal functional dependencies** to reduce redundancy.
+* Database managed using **pgAdmin 4**.
+
+📊 **Relational Schema Includes:**
+
+* `User`, `User_email`, `User_contact`
+* `Post`, `Post_comment`, `Likes`, `Comment_Likes`
+* `Follow`, `Message`, `Group`, `In1`
+* `Tag`, `Collection`, `Ad`, `Placed_as`, `Saved_as`
+
+---
+
+## ⚙️ Tech Stack
+
+* **Database:** PostgreSQL
+* **Management Tool:** pgAdmin 4
+* **Modeling:** ER Diagrams, Relational Diagrams
+* **Techniques:** SQL DDL, DML, Indexing, Joins, Advanced Queries
+* **Normalization:** BCNF
+
+---
